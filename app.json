@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "tarea_Calculadora",
-    "slug": "tarea_Calculadora",
+    "slug": "tarea-calculadora",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -11,6 +11,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.nutrialex.tareacalculadora",
       "adaptiveIcon": {
         "backgroundColor": "#000000",
         "foregroundImage": "./assets/android-icon-foreground.png",
@@ -24,6 +25,13 @@
     "plugins": [
       "expo-router",
       "expo-font"
-    ]
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "41c4ab8b-26cb-44db-92a6-f0b6c47a39b8"
+      }
+    },
+    "owner": "nutrialex"
   }
 }
