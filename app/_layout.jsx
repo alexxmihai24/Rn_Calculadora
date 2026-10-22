@@ -9,7 +9,8 @@ import { estilosGlobales } from '../styles/estilos-globales';
 const esAndroid = Platform.OS === 'android';
 
 if (esAndroid) {
-  NavigationBar.setBackgroundColorAsync('black');
+  NavigationBar.setBackgroundColorAsync?.('black');
+  NavigationBar.setStyle?.('dark');
 }
 
 const DisenoRaiz = () => {
@@ -31,4 +32,3 @@ const DisenoRaiz = () => {
 };
 
 export default DisenoRaiz;
-
